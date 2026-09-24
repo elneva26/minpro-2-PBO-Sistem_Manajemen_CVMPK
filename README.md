@@ -199,7 +199,11 @@ Program kemudian memasukkan dummy data awal berupa;
 <img width="576" height="498" alt="image" src="https://github.com/user-attachments/assets/6d5e11f9-3e57-4489-bdbf-1d995d856858" />
 
 
+
+
 <img width="525" height="242" alt="image" src="https://github.com/user-attachments/assets/62900f8a-7b63-4794-8538-bd17cabca9b5" />
+
+
 
 
 <img width="469" height="222" alt="image" src="https://github.com/user-attachments/assets/cc4c21b4-6776-4a7f-9e3c-1f183650268f" />
