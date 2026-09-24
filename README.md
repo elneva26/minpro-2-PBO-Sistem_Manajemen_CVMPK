@@ -115,10 +115,13 @@ Validasi input diterapkan pada class "Service" yang berada pada package controll
 #### 3.2.1 Validasi input pada tambah pemasok
 
 
-<img width="360" height="528" alt="image" src="https://github.com/user-attachments/assets/47abf41b-003b-44fc-9ff0-481e513adc4c" />
+<img width="582" height="500" alt="image" src="https://github.com/user-attachments/assets/fd036ec8-2373-4fab-9c58-1328f7e08838" />
+
 
 
 ### 3.3 Validasi Input Kelola Data Pengadaan
+
+#### 3.3.1 Validasi input pada tambah pengadaan
 
 
 <img width="582" height="500" alt="image" src="https://github.com/user-attachments/assets/4a8ef07e-5117-4b45-b54c-71d224db671d" />
