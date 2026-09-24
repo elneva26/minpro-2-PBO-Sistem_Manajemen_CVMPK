@@ -127,14 +127,14 @@ Validasi input diterapkan pada class "Service" yang berada pada package controll
 <img width="582" height="500" alt="image" src="https://github.com/user-attachments/assets/4a8ef07e-5117-4b45-b54c-71d224db671d" />
 
 
-Program juga menggunakan "try catch" untuk menangani kesalahan ketika input yang seharusnya berupa angka diisi dengan data lain, lalu terdapat beberapa contoh penerapan validasi input terdapat pada method "Tambah Barang",
+Program juga menggunakan "try-catch" untuk menangani kesalahan ketika input yang seharusnya berupa angka diisi dengan data lain, lalu terdapat beberapa contoh penerapan validasi input terdapat pada method "Tambah Barang",
 "Tambah Pemasok", dan "Tambah Pengadaan".
 
 ---------------
 
 ## **BAB IV ACCESS MODIFIER**
 
-Program menerapkan access modifier "Private" pada atribut di dalam setiap class yang tersedia pada sistem.
+Program menerapkan access modifier "private" pada atribut di dalam setiap class yang tersedia pada sistem.
 
 Contohnya pada class "Barang" yaitu;
 
@@ -196,7 +196,7 @@ Dengan inheritance, kedua subclass dapat menggunakan atribut dan method yang ber
 
 Program menyediakan dummy data awal di dalam ArrayList sehingga data sudah tersedia ketika fitur tampilkan data dijalankan.
 
-Pada class Service, terdapat tiga ArrayList yaitu;
+Pada class service, terdapat tiga ArrayList yaitu;
 
 
 <img width="648" height="172" alt="image" src="https://github.com/user-attachments/assets/ddf72cd4-fce8-4b78-9f5a-87387de320f1" />
