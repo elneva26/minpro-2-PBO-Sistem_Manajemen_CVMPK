@@ -16,7 +16,7 @@ Kelas : Sistem Informasi A'25
 
 ### **1.1 Deskripsi Program**
 
-Sistem Manajemen CV Mandiri Prima Kreatif merupakan program berbasis Java yang dibuat untuk membantu mengelola data pada CV Mandiri Prima Kreatif yang bergerak di bidang elektronik dan pengadaan barang.
+Sistem Manajemen CV Mandiri Prima Kreatif merupakan program berbasis java yang dibuat untuk membantu mengelola data pada CV Mandiri Prima Kreatif yang bergerak di bidang elektronik dan pengadaan barang.
 
 Program ini digunakan untuk mengelola tiga jenis data, yaitu data barang, data pemasok, dan data pengadaan. Pengelolaan data dilakukan dengan menerapkan konsep CRUD (Create, Read, Update, Delete), sehingga user dapat menambahkan, menampilkan, memperbarui, dan menghapus data.
 
@@ -36,15 +36,15 @@ Sistem Manajemen CV Mandiri Prima Kreatif dirancang dengan tujuan sebagai beriku
 
 ### **1.3 Alur Singkat**
 
-Alur program dimulai dengan menampilkan menu utama Sistem Manajemen CV Mandiri Prima Kreatif. Pengguna dapat memilih menu sesuai kebutuhan, yaitu mengelola data barang, mengelola data pemasok, mengelola data pengadaan, atau keluar dari program.
+Alur program dimulai dengan menampilkan menu utama sistem manajemen CV Mandiri Prima Kreatif dimana pengguna dapat memilih menu sesuai kebutuhan, seperti mengelola data barang, mengelola data pemasok, mengelola data pengadaan, ataupun keluar dari program.
 
-Pada menu Kelola Data Barang, pengguna dapat menambahkan data barang dengan memasukkan ID barang, nama barang, dan stok. Pengguna kemudian memilih jenis barang, yaitu Barang Elektronik atau Barang Non-Elektronik. Barang elektronik memiliki data tambahan berupa garansi, sedangkan barang non-elektronik memiliki data tambahan berupa kategori.
+Pada menu kelola data barang, pengguna dapat menambahkan data barang dengan memasukkan ID barang, nama barang, dan stok, selanjutnya pengguna kemudian dapat memilih jenis barang, yaitu Barang Elektronik atau Barang Non-Elektronik. Barang elektronik memiliki data tambahan berupa garansi, sedangkan barang non-elektronik memiliki data tambahan berupa kategori.
 
-Pada menu Kelola Data Pemasok, pengguna dapat menambahkan data pemasok dengan memasukkan ID pemasok, nama pemasok, alamat, dan nomor telepon. Data pemasok yang telah tersimpan dapat ditampilkan, diperbarui, maupun dihapus.
+Pada menu kelola data pemasok, pengguna dapat menambahkan data pemasok dengan memasukkan ID pemasok, nama pemasok, alamat, dan nomor telepon. Data pemasok yang telah tersimpan dapat ditampilkan, diperbarui, maupun dihapus.
 
-Pada menu Kelola Data Pengadaan, pengguna dapat menambahkan data pengadaan dengan memasukkan ID pengadaan, tanggal pengadaan, dan alamat pengadaan. Data pengadaan yang telah tersimpan juga dapat ditampilkan, diperbarui, maupun dihapus.
+Pada menu kelola data pengadaan, pengguna dapat menambahkan data pengadaan dengan memasukkan ID pengadaan, tanggal pengadaan, dan alamat pengadaan. Data pengadaan yang telah tersimpan juga dapat ditampilkan, diperbarui, maupun dihapus.
 
-Setiap proses input dilengkapi dengan validasi untuk memastikan data yang dimasukkan tidak kosong dan sesuai dengan tipe data yang ditentukan. Program akan terus menampilkan menu utama sampai pengguna memilih menu Keluar.
+Setiap proses input dilengkapi dengan validasi untuk memastikan data yang dimasukkan tidak kosong dan sesuai dengan tipe data yang ditentukan dan program ini akan terus menampilkan menu utama sampai pengguna memilih menu keluar.
 
 --------------
 
