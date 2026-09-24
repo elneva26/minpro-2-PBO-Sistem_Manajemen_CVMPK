@@ -130,6 +130,8 @@ Validasi input diterapkan pada class "Service" yang berada pada package controll
 Program juga menggunakan "try catch" untuk menangani kesalahan ketika input yang seharusnya berupa angka diisi dengan data lain, lalu terdapat beberapa contoh penerapan validasi input terdapat pada method "Tambah Barang",
 "Tambah Pemasok", dan "Tambah Pengadaan".
 
+---------------
+
 ## BAB IV ACCESS MODIFIER
 
 Program menerapkan access modifier "Private" pada atribut di dalam setiap class yang tersedia pada sistem.
@@ -140,6 +142,8 @@ Contohnya pada class "Barang" yaitu;
 
 Penggunaan private membuat atribut tidak dapat diakses secara langsung dari class lain dan juga access modifier private diterapkan pada atribut class Pemasok dan Pengadaan.
 
+-------------------
+
 ## BAB V ENCAPSULATION
 
 Encapsulation diterapkan dengan membuat atribut class menggunakan access modifier private dan menyediakan method getter dan setter untuk mengakses serta mengubah data.
@@ -149,6 +153,8 @@ Contohnya pada class barang, yaitu;
 <img width="975" height="302" alt="image" src="https://github.com/user-attachments/assets/c8934f47-6d6e-4452-8fb3-867e924bd38c" />
 
 Dengan demikian, data tidak diakses secara langsung tetapi melalui getter dan setter. Setter juga digunakan untuk melakukan validasi terhadap data sebelum data disimpan, dan juga konsep yang sama diterapkan pada class pemasok dan pengadaan.
+
+---------------------
 
 ## BAB VI INHERITANCE
 
@@ -184,6 +190,8 @@ Kemudian masing-masing subclass memiliki atribut khusus, yaitu;
 
 Dengan inheritance, kedua subclass dapat menggunakan atribut dan method yang berasal dari superclass Barang.
 
+-----------------------------------
+
 ### BAB VII DUMMY DATA PADA ARRAYLIST
 
 Program menyediakan dummy data awal di dalam ArrayList sehingga data sudah tersedia ketika fitur tampilkan data dijalankan.
@@ -198,12 +206,13 @@ Program kemudian memasukkan dummy data awal berupa;
 
 <img width="576" height="498" alt="image" src="https://github.com/user-attachments/assets/6d5e11f9-3e57-4489-bdbf-1d995d856858" />
 
+-------------------------------
 
 
 
 <img width="525" height="242" alt="image" src="https://github.com/user-attachments/assets/62900f8a-7b63-4794-8538-bd17cabca9b5" />
 
-
+--------------------------------
 
 
 <img width="469" height="222" alt="image" src="https://github.com/user-attachments/assets/cc4c21b4-6776-4a7f-9e3c-1f183650268f" />
@@ -211,6 +220,7 @@ Program kemudian memasukkan dummy data awal berupa;
 
 Dengan adanya dummy data tersebut, pengguna tidak perlu melakukan input terlebih dahulu untuk melihat data pada fitur read ataupun tampilkan Data.
 
+-----------------------------
 
 ## BAB VIII NILAI TAMBAH
 
@@ -282,6 +292,7 @@ Saat program menjalankan;
 
 Method tampilkanInfo yang dijalankan menyesuaikan dengan jenis objek yang digunakan, hal tersebut merupakan penerapan polymorphism melalui method overriding.
 
+--------------------------
 
 ## BAB IX KESIMPULAN
 
