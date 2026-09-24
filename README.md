@@ -14,7 +14,7 @@ Kelas : Sistem Informasi A'25
 
 ## BAB I PENDAHULUAN
 
-### 1.1 Deksripsi Program
+### 1.1 Deskripsi Program
 
 Sistem Manajemen CV Mandiri Prima Kreatif merupakan program berbasis Java yang dibuat untuk membantu mengelola data pada CV Mandiri Prima Kreatif yang bergerak di bidang elektronik dan pengadaan barang.
 
@@ -192,7 +192,7 @@ Dengan inheritance, kedua subclass dapat menggunakan atribut dan method yang ber
 
 -----------------------------------
 
-### BAB VII DUMMY DATA PADA ARRAYLIST
+## BAB VII DUMMY DATA PADA ARRAYLIST
 
 Program menyediakan dummy data awal di dalam ArrayList sehingga data sudah tersedia ketika fitur tampilkan data dijalankan.
 
@@ -224,7 +224,7 @@ Dengan adanya dummy data tersebut, pengguna tidak perlu melakukan input terlebih
 
 ## BAB VIII NILAI TAMBAH
 
-### 4.1 Struktur MVC
+### 8.1 Struktur MVC
 
 Program menerapkan struktur MVC (Model-View-Controller) dengan membagi class ke dalam beberapa package.
 
@@ -256,7 +256,7 @@ Struktur package program, yaitu;
 Dengan pembagian tersebut, program memiliki pemisahan antara bagian tampilan, proses, dan data.
 
 
-### 4.2 Polymorphism
+### 8.2 Polymorphism
 
 Polymorphism diterapkan menggunakan method overriding.
 
