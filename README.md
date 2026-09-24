@@ -30,7 +30,7 @@ Sistem Manajemen CV Mandiri Prima Kreatif dirancang dengan tujuan sebagai beriku
 
 - Membantu mengelola data barang, pemasok, dan pengadaan secara terstruktur.
 - Memudahkan proses tambah, tampil, update, dan hapus data pada sistem.
-- Menerapkan konsep Pemrograman Berorientasi Objek seperti encapsulation, inheritance, dan polymorphism dalam program.
+- Menerapkan konsep pemrograman berorientasi objek seperti encapsulation, inheritance, dan polymorphism dalam program.
 - Memastikan data yang dimasukkan sesuai melalui proses validasi input.
 
 
