@@ -22,7 +22,7 @@ Program ini digunakan untuk mengelola tiga jenis data, yaitu data barang, data p
 
 Program dibuat dengan menerapkan konsep Pemrograman Berorientasi Objek (PBO), seperti class, object, constructor, access modifier, encapsulation, ArrayList, percabangan, input, perulangan, dan validasi input.
 
-Program terdiri dari satu class entry point yaitu SistemmanajemenCVMPK serta empat class pendukung yaitu Service, Barang, Pemasok, dan Pengadaan.
+Program terdiri dari satu class entry point yaitu SistemmanajemenCVMPK, class controller yaitu service, serta beberapa class model yaitu Barang, Barang elektronik, Barang non elektronik, Pemasok, dan Pengadaan.
 
 --------------
 
@@ -228,7 +228,7 @@ Struktur package program, yaitu;
     
     berisi class yang merepresentasikan data program.
 
-    Class yang terdapat pada package ini adalah Barang, BarangElektronik,BarangNonElektronik, Pemasok, Pengadaan, dan View
+    Class yang terdapat pada package ini adalah Barang, BarangElektronik,BarangNonElektronik, Pemasok, dan  Pengadaan.
 
 
 - Package View
@@ -237,7 +237,7 @@ Struktur package program, yaitu;
 
   Class ini menjadi bagian yang menampilkan menu utama dan berinteraksi langsung dengan pengguna dan juga class tersebut membuat objek service untuk menjalankan proses pengelolaan data.
 
-- Model Controller
+- Package Controller
 
   berisi class Service.
 
