@@ -246,7 +246,7 @@ Struktur package program, yaitu;
 Dengan pembagian tersebut, program memiliki pemisahan antara bagian tampilan, proses, dan data.
 
 
-## BAB IX POLYMORPHISM
+### 4.2 Polymorphism
 
 Polymorphism diterapkan menggunakan method overriding.
 
@@ -274,6 +274,27 @@ Contohnya;
 
 
 <img width="664" height="517" alt="image" src="https://github.com/user-attachments/assets/76ea92a4-78f7-4703-a04e-107c2e24a050" />
+
+Saat program menjalankan;
+
+<img width="272" height="44" alt="image" src="https://github.com/user-attachments/assets/56b97c00-d1f0-4e38-b47b-c8f3742573c2" />
+
+
+Method tampilkanInfo yang dijalankan menyesuaikan dengan jenis objek yang digunakan, hal tersebut merupakan penerapan polymorphism melalui method overriding.
+
+
+## BAB IX KESIMPULAN
+
+
+Program Sistem Manajemen CV Mandiri Prima Kreatif merupakan aplikasi berbasis Java yang digunakan untuk mengelola data barang, pemasok, dan pengadaan. Program ini menerapkan konsep dasar Pemrograman Berorientasi Objek seperti access modifier, encapsulation, inheritance, dan polymorphism, serta menggunakan ArrayList untuk menyimpan data selama program berjalan.
+
+Dalam pengembangannya, program dilengkapi dengan validasi input untuk memastikan data yang dimasukkan sesuai dengan ketentuan, seperti validasi input kosong, angka, ID yang tidak boleh sama, stok, nomor telepon, tanggal, dan pilihan menu. Konsep inheritance diterapkan dengan class Barang sebagai superclass yang diwarisi oleh BarangElektronik dan BarangNonElektronik. Sementara itu, polymorphism diterapkan melalui method tampilkanInfo yang dioverride pada masing-masing subclass sehingga informasi barang dapat ditampilkan sesuai dengan jenis barangnya.
+
+Program juga menggunakan struktur Model-View-Controller (MVC) untuk memisahkan pengelolaan data, proses program, dan tampilan. Dengan penerapan konsep-konsep tersebut, program menjadi lebih terstruktur, mudah dipahami, serta dapat menunjukkan penerapan materi Pemrograman Berorientasi Objek yang telah dipelajari.
+
+
+
+
 
 
 
