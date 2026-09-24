@@ -34,7 +34,17 @@ Sistem Manajemen CV Mandiri Prima Kreatif dirancang dengan tujuan sebagai beriku
 - Memastikan data yang dimasukkan sesuai melalui proses validasi input.
 
 
+### **1.3 Alur Singkat**
 
+Alur program dimulai dengan menampilkan menu utama Sistem Manajemen CV Mandiri Prima Kreatif. Pengguna dapat memilih menu sesuai kebutuhan, yaitu mengelola data barang, mengelola data pemasok, mengelola data pengadaan, atau keluar dari program.
+
+Pada menu Kelola Data Barang, pengguna dapat menambahkan data barang dengan memasukkan ID barang, nama barang, dan stok. Pengguna kemudian memilih jenis barang, yaitu Barang Elektronik atau Barang Non-Elektronik. Barang elektronik memiliki data tambahan berupa garansi, sedangkan barang non-elektronik memiliki data tambahan berupa kategori.
+
+Pada menu Kelola Data Pemasok, pengguna dapat menambahkan data pemasok dengan memasukkan ID pemasok, nama pemasok, alamat, dan nomor telepon. Data pemasok yang telah tersimpan dapat ditampilkan, diperbarui, maupun dihapus.
+
+Pada menu Kelola Data Pengadaan, pengguna dapat menambahkan data pengadaan dengan memasukkan ID pengadaan, tanggal pengadaan, dan alamat pengadaan. Data pengadaan yang telah tersimpan juga dapat ditampilkan, diperbarui, maupun dihapus.
+
+Setiap proses input dilengkapi dengan validasi untuk memastikan data yang dimasukkan tidak kosong dan sesuai dengan tipe data yang ditentukan. Program akan terus menampilkan menu utama sampai pengguna memilih menu Keluar.
 
 --------------
 
