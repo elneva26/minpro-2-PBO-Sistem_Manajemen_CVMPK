@@ -12,9 +12,9 @@ Kelas : Sistem Informasi A'25
 
 --------------
 
-## BAB I PENDAHULUAN
+## **BAB I PENDAHULUAN**
 
-### 1.1 Deskripsi Program
+### **1.1 Deskripsi Program**
 
 Sistem Manajemen CV Mandiri Prima Kreatif merupakan program berbasis Java yang dibuat untuk membantu mengelola data pada CV Mandiri Prima Kreatif yang bergerak di bidang elektronik dan pengadaan barang.
 
@@ -26,7 +26,7 @@ Program terdiri dari satu class entry point yaitu SistemmanajemenCVMPK, class co
 
 --------------
 
-## BAB II ALUR PROGRAM
+## **BAB II ALUR PROGRAM**
 
 Program dijalankan melalui class "SistemmanajemenCVMPK" yang berada pada package "view"
 
@@ -39,7 +39,7 @@ Saat program dijalankan, pengguna akan diberikan menu utama dari Sistem manajeme
 
 Pengguna dapat memilih menu dengan memasukkan pilihan angka yang valid sesuai dengan kebutuhannya masing - masing.
 
-### 2.1 Kelola Data Barang
+### **2.1 Kelola Data Barang**
 
 Pada menu kelola data barang, terdapat beberapa pilihan yang dapat dipilih oleh user yaitu;
 
@@ -56,7 +56,7 @@ Saat fitur tampilkan barang dijalankan, data barang akan secara otomatis dikelom
 
 <img width="859" height="782" alt="image" src="https://github.com/user-attachments/assets/6fa48f46-f4e9-43b4-b833-9d554f4fbf63" />
 
-### 2.2 Kelola Data Pemasok
+### **2.2 Kelola Data Pemasok**
 
 Pada menu kelola data pemasok, terdapat beberapa pilihan yang dapat dipilih oleh user yaitu;
 
@@ -64,7 +64,7 @@ Pada menu kelola data pemasok, terdapat beberapa pilihan yang dapat dipilih oleh
 
 Data pemasok terdiri dari ID pemasok, nama pemasok, alamat, dan nomor telepon.
 
-### 2.3 Kelola Data Pengadaan
+### **2.3 Kelola Data Pengadaan**
 
 Pada menu kelola data pengadaan, terdapat beberapa pilihan yang dapat dipilih oleh user yaitu;
 
@@ -72,7 +72,7 @@ Pada menu kelola data pengadaan, terdapat beberapa pilihan yang dapat dipilih ol
 
 Data pengadaan terdiri dari ID pengadaan, tanggal pengadaan, dan alamat pengadaan. Lalu, program juga melakukan validasi terhadap format tanggal pengadaan agar tanggal yang dimasukkan sesuai dengan format "DD/MM/YYYY".
 
-### 2.4 Keluar
+### **2.4 Keluar**
 
 Jika pengguna memilih menu keluar, maka program akan menghentikan proses dan menampilkan pesan bahwa program telah selesai digunakan.
 
@@ -81,7 +81,7 @@ Jika pengguna memilih menu keluar, maka program akan menghentikan proses dan men
 
 ------------------
 
-## BAB III VALIDASI INPUT
+## **BAB III VALIDASI INPUT**
 
 Validasi input diterapkan pada class "Service" yang berada pada package controller, adapun terdapat beberapa validasi yang diterapkan pada sistem antara lain;
 
@@ -102,26 +102,26 @@ Validasi input diterapkan pada class "Service" yang berada pada package controll
 - Alamat tidak boleh kosong.
 - Menu tidak tersedia.
 
-### 3.1 Validasi Input Kelola Data Barang
+### **3.1 Validasi Input Kelola Data Barang**
 
-#### 3.1.1 Validasi input pada tambah barang
+#### **3.1.1 Validasi input pada tambah barang**
 
 
 <img width="360" height="528" alt="image" src="https://github.com/user-attachments/assets/e503a37b-3fbd-424e-bb8a-89b0def30c53" />
 
 
-### 3.2 Validasi Input Kelola Data Pemasok
+### **3.2 Validasi Input Kelola Data Pemasok**
 
-#### 3.2.1 Validasi input pada tambah pemasok
+#### **3.2.1 Validasi input pada tambah pemasok**
 
 
 <img width="582" height="500" alt="image" src="https://github.com/user-attachments/assets/fd036ec8-2373-4fab-9c58-1328f7e08838" />
 
 
 
-### 3.3 Validasi Input Kelola Data Pengadaan
+### **3.3 Validasi Input Kelola Data Pengadaan**
 
-#### 3.3.1 Validasi input pada tambah pengadaan
+#### **3.3.1 Validasi input pada tambah pengadaan**
 
 
 <img width="582" height="500" alt="image" src="https://github.com/user-attachments/assets/4a8ef07e-5117-4b45-b54c-71d224db671d" />
@@ -132,7 +132,7 @@ Program juga menggunakan "try catch" untuk menangani kesalahan ketika input yang
 
 ---------------
 
-## BAB IV ACCESS MODIFIER
+## **BAB IV ACCESS MODIFIER**
 
 Program menerapkan access modifier "Private" pada atribut di dalam setiap class yang tersedia pada sistem.
 
@@ -144,7 +144,7 @@ Penggunaan private membuat atribut tidak dapat diakses secara langsung dari clas
 
 -------------------
 
-## BAB V ENCAPSULATION
+## **BAB V ENCAPSULATION**
 
 Encapsulation diterapkan dengan membuat atribut class menggunakan access modifier private dan menyediakan method getter dan setter untuk mengakses serta mengubah data.
 
@@ -156,7 +156,7 @@ Dengan demikian, data tidak diakses secara langsung tetapi melalui getter dan se
 
 ---------------------
 
-## BAB VI INHERITANCE
+## **BAB VI INHERITANCE**
 
 Inheritance diterapkan dengan menggunakan class Barang sebagai superclass dan dua subclass, yaitu:
 - Barang Elektronik
@@ -192,7 +192,7 @@ Dengan inheritance, kedua subclass dapat menggunakan atribut dan method yang ber
 
 -----------------------------------
 
-## BAB VII DUMMY DATA PADA ARRAYLIST
+## **BAB VII DUMMY DATA PADA ARRAYLIST**
 
 Program menyediakan dummy data awal di dalam ArrayList sehingga data sudah tersedia ketika fitur tampilkan data dijalankan.
 
@@ -222,9 +222,9 @@ Dengan adanya dummy data tersebut, pengguna tidak perlu melakukan input terlebih
 
 -----------------------------
 
-## BAB VIII NILAI TAMBAH
+## **BAB VIII NILAI TAMBAH**
 
-### 8.1 Struktur MVC
+### **8.1 Struktur MVC**
 
 Program menerapkan struktur MVC (Model-View-Controller) dengan membagi class ke dalam beberapa package.
 
@@ -256,7 +256,7 @@ Struktur package program, yaitu;
 Dengan pembagian tersebut, program memiliki pemisahan antara bagian tampilan, proses, dan data.
 
 
-### 8.2 Polymorphism
+### **8.2 Polymorphism**
 
 Polymorphism diterapkan menggunakan method overriding.
 
@@ -294,7 +294,7 @@ Method tampilkanInfo yang dijalankan menyesuaikan dengan jenis objek yang diguna
 
 --------------------------
 
-## BAB IX KESIMPULAN
+## **BAB IX KESIMPULAN**
 
 
 Program Sistem Manajemen CV Mandiri Prima Kreatif merupakan aplikasi berbasis Java yang digunakan untuk mengelola data barang, pemasok, dan pengadaan. Program ini menerapkan konsep dasar Pemrograman Berorientasi Objek seperti access modifier, encapsulation, inheritance, dan polymorphism, serta menggunakan ArrayList untuk menyimpan data selama program berjalan.
