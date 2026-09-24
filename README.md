@@ -159,6 +159,13 @@ Dengan demikian, data tidak diakses secara langsung tetapi melalui getter dan se
 ## **BAB VI INHERITANCE**
 
 Inheritance diterapkan dengan menggunakan class Barang sebagai superclass dan dua subclass, yaitu:
+
+                    Barang
+                       |
+              ┌────────┴────────┐
+              ↓                 ↓
+      BarangElektronik    BarangNonElektronik
+
 - Barang Elektronik
 - Barang Non Elektronik
 
