@@ -24,9 +24,21 @@ Program dibuat dengan menerapkan konsep Pemrograman Berorientasi Objek (PBO), se
 
 Program terdiri dari satu class entry point yaitu SistemmanajemenCVMPK, class controller yaitu service, serta beberapa class model yaitu Barang, Barang elektronik, Barang non elektronik, Pemasok, dan Pengadaan.
 
+### **1.2 Tujuan**
+
+Sistem Manajemen CV Mandiri Prima Kreatif dirancang dengan tujuan sebagai berikut:
+
+- Membantu mengelola data barang, pemasok, dan pengadaan secara terstruktur.
+- Memudahkan proses tambah, tampil, update, dan hapus data pada sistem.
+- Menerapkan konsep Pemrograman Berorientasi Objek seperti encapsulation, inheritance, dan polymorphism dalam program.
+- Memastikan data yang dimasukkan sesuai melalui proses validasi input.
+
+
+
+
 --------------
 
-## **BAB II ALUR PROGRAM**
+### **BAB II ALUR PROGRAM**
 
 Program dijalankan melalui class "SistemmanajemenCVMPK" yang berada pada package "view"
 
