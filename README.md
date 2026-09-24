@@ -30,12 +30,12 @@ Program terdiri dari satu class entry point yaitu SistemmanajemenCVMPK, class co
 
 Program dijalankan melalui class "SistemmanajemenCVMPK" yang berada pada package "view"
 
-<img width="439" height="56" alt="image" src="https://github.com/user-attachments/assets/6fd94327-82b5-4ba9-9776-420a5371dbce" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/6fd94327-82b5-4ba9-9776-420a5371dbce" />
 
 
 Saat program dijalankan, pengguna akan diberikan menu utama dari Sistem manajemen CV mandiri prima kreatif, yaitu;
 
-<img width="876" height="270" alt="image" src="https://github.com/user-attachments/assets/d258d6db-eb99-47d7-90dd-323ea6bb2f16" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/d258d6db-eb99-47d7-90dd-323ea6bb2f16" />
 
 Pengguna dapat memilih menu dengan memasukkan pilihan angka yang valid sesuai dengan kebutuhannya masing - masing.
 
@@ -43,7 +43,7 @@ Pengguna dapat memilih menu dengan memasukkan pilihan angka yang valid sesuai de
 
 Pada menu kelola data barang, terdapat beberapa pilihan yang dapat dipilih oleh user yaitu;
 
-<img width="879" height="306" alt="image" src="https://github.com/user-attachments/assets/5c668b69-ff34-468e-8c91-8be7f50cf2d9" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/5c668b69-ff34-468e-8c91-8be7f50cf2d9" />
 
 Lalu data barang terbagi ke dalam dua jenis yaitu;
 
@@ -54,13 +54,13 @@ Barang elektronik memiliki atribut tambahan berupa garansi sesuai yang berfungsi
 
 Saat fitur tampilkan barang dijalankan, data barang akan secara otomatis dikelompokkan oleh sistem berdasarkan jenis barang yang telah ditentukan saat pendataan barang masuk.
 
-<img width="859" height="782" alt="image" src="https://github.com/user-attachments/assets/6fa48f46-f4e9-43b4-b833-9d554f4fbf63" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/6fa48f46-f4e9-43b4-b833-9d554f4fbf63" />
 
 ### **2.2 Kelola Data Pemasok**
 
 Pada menu kelola data pemasok, terdapat beberapa pilihan yang dapat dipilih oleh user yaitu;
 
-<img width="632" height="192" alt="image" src="https://github.com/user-attachments/assets/da1a9b27-7c4c-460d-8685-f2524a736ed8" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/da1a9b27-7c4c-460d-8685-f2524a736ed8" />
 
 Data pemasok terdiri dari ID pemasok, nama pemasok, alamat, dan nomor telepon.
 
@@ -68,7 +68,7 @@ Data pemasok terdiri dari ID pemasok, nama pemasok, alamat, dan nomor telepon.
 
 Pada menu kelola data pengadaan, terdapat beberapa pilihan yang dapat dipilih oleh user yaitu;
 
-<img width="632" height="192" alt="image" src="https://github.com/user-attachments/assets/78d01fd9-7039-4dc2-87a0-82e1075a1dba" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/78d01fd9-7039-4dc2-87a0-82e1075a1dba" />
 
 Data pengadaan terdiri dari ID pengadaan, tanggal pengadaan, dan alamat pengadaan. Lalu, program juga melakukan validasi terhadap format tanggal pengadaan agar tanggal yang dimasukkan sesuai dengan format "DD/MM/YYYY".
 
@@ -77,7 +77,7 @@ Data pengadaan terdiri dari ID pengadaan, tanggal pengadaan, dan alamat pengadaa
 Jika pengguna memilih menu keluar, maka program akan menghentikan proses dan menampilkan pesan bahwa program telah selesai digunakan.
 
 
-<img width="503" height="217" alt="image" src="https://github.com/user-attachments/assets/055a8eb2-74b6-4d1c-81c2-603c422b4adc" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/055a8eb2-74b6-4d1c-81c2-603c422b4adc" />
 
 ------------------
 
@@ -107,7 +107,7 @@ Validasi input diterapkan pada class "Service" yang berada pada package controll
 #### **3.1.1 Validasi input pada tambah barang**
 
 
-<img width="360" height="528" alt="image" src="https://github.com/user-attachments/assets/e503a37b-3fbd-424e-bb8a-89b0def30c53" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/e503a37b-3fbd-424e-bb8a-89b0def30c53" />
 
 
 ### **3.2 Validasi Input Kelola Data Pemasok**
@@ -115,7 +115,7 @@ Validasi input diterapkan pada class "Service" yang berada pada package controll
 #### **3.2.1 Validasi input pada tambah pemasok**
 
 
-<img width="582" height="500" alt="image" src="https://github.com/user-attachments/assets/fd036ec8-2373-4fab-9c58-1328f7e08838" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/fd036ec8-2373-4fab-9c58-1328f7e08838" />
 
 
 
@@ -124,7 +124,7 @@ Validasi input diterapkan pada class "Service" yang berada pada package controll
 #### **3.3.1 Validasi input pada tambah pengadaan**
 
 
-<img width="582" height="500" alt="image" src="https://github.com/user-attachments/assets/4a8ef07e-5117-4b45-b54c-71d224db671d" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/4a8ef07e-5117-4b45-b54c-71d224db671d" />
 
 
 Program juga menggunakan "try-catch" untuk menangani kesalahan ketika input yang seharusnya berupa angka diisi dengan data lain, lalu terdapat beberapa contoh penerapan validasi input terdapat pada method "Tambah Barang",
@@ -138,7 +138,7 @@ Program menerapkan access modifier "private" pada atribut di dalam setiap class 
 
 Contohnya pada class "Barang" yaitu;
 
-<img width="372" height="154" alt="image" src="https://github.com/user-attachments/assets/4f60afd7-2fe8-4945-8c45-67ca60dd92bf" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/4f60afd7-2fe8-4945-8c45-67ca60dd92bf" />
 
 Penggunaan private membuat atribut tidak dapat diakses secara langsung dari class lain dan juga access modifier private diterapkan pada atribut class Pemasok dan Pengadaan.
 
@@ -150,7 +150,7 @@ Encapsulation diterapkan dengan membuat atribut class menggunakan access modifie
 
 Contohnya pada class barang, yaitu;
 
-<img width="975" height="302" alt="image" src="https://github.com/user-attachments/assets/c8934f47-6d6e-4452-8fb3-867e924bd38c" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/c8934f47-6d6e-4452-8fb3-867e924bd38c" />
 
 Dengan demikian, data tidak diakses secara langsung tetapi melalui getter dan setter. Setter juga digunakan untuk melakukan validasi terhadap data sebelum data disimpan, dan juga konsep yang sama diterapkan pada class pemasok dan pengadaan.
 
@@ -164,28 +164,28 @@ Inheritance diterapkan dengan menggunakan class Barang sebagai superclass dan du
 
 Class BarangElektronik mewarisi class Barang menggunakan public class BarangElektronik extends Barang;
 
-<img width="591" height="53" alt="image" src="https://github.com/user-attachments/assets/a9e7b2a6-3549-451d-8880-f5be65b3ec16" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/a9e7b2a6-3549-451d-8880-f5be65b3ec16" />
 
 Sedangkan class BarangNonElektronik menggunakan public class BarangNonElektronik extends Barang;
 
-<img width="307" height="21" alt="image" src="https://github.com/user-attachments/assets/b0aecf41-602d-4e58-86f9-94daac93dd93" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/b0aecf41-602d-4e58-86f9-94daac93dd93" />
 
 Atribut yang bersifat umum seperti ID barang, nama, dan stok diletakkan pada superclass Barang.
 
 
-<img width="707" height="167" alt="image" src="https://github.com/user-attachments/assets/b0b970f1-04f7-46fe-b7aa-0ff039b5064f" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/b0b970f1-04f7-46fe-b7aa-0ff039b5064f" />
 
 Kemudian masing-masing subclass memiliki atribut khusus, yaitu;
 
 - BarangElektronik memiliki atribut garansi
 
-<img width="975" height="283" alt="image" src="https://github.com/user-attachments/assets/91ec5169-ff47-43dd-8a45-051171e170fd" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/91ec5169-ff47-43dd-8a45-051171e170fd" />
 
 
 - BarangNonElektronik memiliki atribut kategori
 
 
-<img width="975" height="275" alt="image" src="https://github.com/user-attachments/assets/b55710c9-9d36-43bd-909c-bc392048d5cb" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/b55710c9-9d36-43bd-909c-bc392048d5cb" />
 
 
 Dengan inheritance, kedua subclass dapat menggunakan atribut dan method yang berasal dari superclass Barang.
@@ -199,23 +199,23 @@ Program menyediakan dummy data awal di dalam ArrayList sehingga data sudah terse
 Pada class service, terdapat tiga ArrayList yaitu;
 
 
-<img width="648" height="172" alt="image" src="https://github.com/user-attachments/assets/ddf72cd4-fce8-4b78-9f5a-87387de320f1" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/ddf72cd4-fce8-4b78-9f5a-87387de320f1" />
 
 
 Program kemudian memasukkan dummy data awal berupa;
 
-<img width="576" height="498" alt="image" src="https://github.com/user-attachments/assets/6d5e11f9-3e57-4489-bdbf-1d995d856858" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/6d5e11f9-3e57-4489-bdbf-1d995d856858" />
 
 -------------------------------
 
 
 
-<img width="525" height="242" alt="image" src="https://github.com/user-attachments/assets/62900f8a-7b63-4794-8538-bd17cabca9b5" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/62900f8a-7b63-4794-8538-bd17cabca9b5" />
 
 --------------------------------
 
 
-<img width="469" height="222" alt="image" src="https://github.com/user-attachments/assets/cc4c21b4-6776-4a7f-9e3c-1f183650268f" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/cc4c21b4-6776-4a7f-9e3c-1f183650268f" />
 
 
 Dengan adanya dummy data tersebut, pengguna tidak perlu melakukan input terlebih dahulu untuk melihat data pada fitur read ataupun tampilkan Data.
@@ -231,7 +231,7 @@ Program menerapkan struktur MVC (Model-View-Controller) dengan membagi class ke 
 Struktur package program, yaitu;
 
 
-  <img width="492" height="367" alt="image" src="https://github.com/user-attachments/assets/6fd762d4-3dfe-4604-bb7c-807798e60bd3" />
+  <img width="300" alt="image" src="https://github.com/user-attachments/assets/6fd762d4-3dfe-4604-bb7c-807798e60bd3" />
 
 
   - Package Model
@@ -262,32 +262,32 @@ Polymorphism diterapkan menggunakan method overriding.
 
 Pada class Barang terdapat method seperti;
 
-<img width="772" height="195" alt="image" src="https://github.com/user-attachments/assets/790a8179-617f-4f47-a40b-e663ca558cbb" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/790a8179-617f-4f47-a40b-e663ca558cbb" />
 
 Method tersebut kemudian di-override pada class BarangElektronik:
 
-<img width="975" height="273" alt="image" src="https://github.com/user-attachments/assets/fcbe366c-a2da-4b6e-b371-0987315e7a00" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/fcbe366c-a2da-4b6e-b371-0987315e7a00" />
 
 Lalu pada class BarangNonElektronik seperti berikut;
 
-<img width="975" height="270" alt="image" src="https://github.com/user-attachments/assets/63ab55e8-e956-4211-9b07-50d21a4b211b" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/63ab55e8-e956-4211-9b07-50d21a4b211b" />
 
 Masing-masing subclass memiliki tampilan informasi yang berbeda sesuai dengan jenis barang.
 
 Program juga menggunakan sintaks;
 
-<img width="254" height="18" alt="image" src="https://github.com/user-attachments/assets/97e90654-9a1d-4441-b2ec-606af4ed25fc" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/97e90654-9a1d-4441-b2ec-606af4ed25fc" />
 
 ArrayList tersebut dapat menyimpan objek dari subclass BarangElektronik dan BarangNonElektronik.
 
 Contohnya;
 
 
-<img width="664" height="517" alt="image" src="https://github.com/user-attachments/assets/76ea92a4-78f7-4703-a04e-107c2e24a050" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/76ea92a4-78f7-4703-a04e-107c2e24a050" />
 
 Saat program menjalankan;
 
-<img width="272" height="44" alt="image" src="https://github.com/user-attachments/assets/56b97c00-d1f0-4e38-b47b-c8f3742573c2" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/56b97c00-d1f0-4e38-b47b-c8f3742573c2" />
 
 
 Method tampilkanInfo yang dijalankan menyesuaikan dengan jenis objek yang digunakan, hal tersebut merupakan penerapan polymorphism melalui method overriding.
