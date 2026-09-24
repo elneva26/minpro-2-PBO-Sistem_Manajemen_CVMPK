@@ -136,6 +136,168 @@ Program menerapkan access modifier "Private" pada atribut di dalam setiap class 
 
 Contohnya pada class "Barang" yaitu;
 
+<img width="372" height="154" alt="image" src="https://github.com/user-attachments/assets/4f60afd7-2fe8-4945-8c45-67ca60dd92bf" />
+
+Penggunaan private membuat atribut tidak dapat diakses secara langsung dari class lain dan juga access modifier private diterapkan pada atribut class Pemasok dan Pengadaan.
+
+## BAB V ENCAPSULATION
+
+Encapsulation diterapkan dengan membuat atribut class menggunakan access modifier private dan menyediakan method getter dan setter untuk mengakses serta mengubah data.
+
+Contohnya pada class barang, yaitu;
+
+<img width="975" height="302" alt="image" src="https://github.com/user-attachments/assets/c8934f47-6d6e-4452-8fb3-867e924bd38c" />
+
+Dengan demikian, data tidak diakses secara langsung tetapi melalui getter dan setter. Setter juga digunakan untuk melakukan validasi terhadap data sebelum data disimpan, dan juga konsep yang sama diterapkan pada class pemasok dan pengadaan.
+
+## BAB VI INHERITANCE
+
+Inheritance diterapkan dengan menggunakan class Barang sebagai superclass dan dua subclass, yaitu:
+- Barang Elektronik
+- Barang Non Elektronik
+
+Class BarangElektronik mewarisi class Barang menggunakan public class BarangElektronik extends Barang;
+
+<img width="591" height="53" alt="image" src="https://github.com/user-attachments/assets/a9e7b2a6-3549-451d-8880-f5be65b3ec16" />
+
+Sedangkan class BarangNonElektronik menggunakan public class BarangNonElektronik extends Barang;
+
+<img width="307" height="21" alt="image" src="https://github.com/user-attachments/assets/b0aecf41-602d-4e58-86f9-94daac93dd93" />
+
+Atribut yang bersifat umum seperti ID barang, nama, dan stok diletakkan pada superclass Barang.
+
+
+<img width="707" height="167" alt="image" src="https://github.com/user-attachments/assets/b0b970f1-04f7-46fe-b7aa-0ff039b5064f" />
+
+Kemudian masing-masing subclass memiliki atribut khusus, yaitu;
+
+- BarangElektronik memiliki atribut garansi
+
+<img width="975" height="283" alt="image" src="https://github.com/user-attachments/assets/91ec5169-ff47-43dd-8a45-051171e170fd" />
+
+
+- BarangNonElektronik memiliki atribut kategori
+
+
+<img width="975" height="275" alt="image" src="https://github.com/user-attachments/assets/b55710c9-9d36-43bd-909c-bc392048d5cb" />
+
+
+Dengan inheritance, kedua subclass dapat menggunakan atribut dan method yang berasal dari superclass Barang.
+
+### BAB VII DUMMY DATA PADA ARRAYLIST
+
+Program menyediakan dummy data awal di dalam ArrayList sehingga data sudah tersedia ketika fitur tampilkan data dijalankan.
+
+Pada class Service, terdapat tiga ArrayList yaitu;
+
+
+<img width="648" height="172" alt="image" src="https://github.com/user-attachments/assets/ddf72cd4-fce8-4b78-9f5a-87387de320f1" />
+
+
+Program kemudian memasukkan dummy data awal berupa;
+
+<img width="576" height="498" alt="image" src="https://github.com/user-attachments/assets/6d5e11f9-3e57-4489-bdbf-1d995d856858" />
+
+
+<img width="525" height="242" alt="image" src="https://github.com/user-attachments/assets/62900f8a-7b63-4794-8538-bd17cabca9b5" />
+
+
+<img width="469" height="222" alt="image" src="https://github.com/user-attachments/assets/cc4c21b4-6776-4a7f-9e3c-1f183650268f" />
+
+
+Dengan adanya dummy data tersebut, pengguna tidak perlu melakukan input terlebih dahulu untuk melihat data pada fitur read ataupun tampilkan Data.
+
+
+## BAB VIII NILAI TAMBAH
+
+### 4.1 Struktur MVC
+
+Program menerapkan struktur MVC (Model-View-Controller) dengan membagi class ke dalam beberapa package.
+
+Struktur package program, yaitu;
+
+
+  <img width="492" height="367" alt="image" src="https://github.com/user-attachments/assets/6fd762d4-3dfe-4604-bb7c-807798e60bd3" />
+
+
+  - Package Model
+    
+    berisi class yang merepresentasikan data program.
+
+    Class yang terdapat pada package ini adalah Barang, BarangElektronik,BarangNonElektronik, Pemasok, Pengadaan, dan View
+
+
+- Package View
+
+  berisi class SistemmanajemenCVMPK.
+
+  Class ini menjadi bagian yang menampilkan menu utama dan berinteraksi langsung dengan pengguna dan juga class tersebut membuat objek service untuk menjalankan proses pengelolaan data.
+
+- Model Controller
+
+  berisi class Service.
+
+  Class Service menangani proses program seperti, menerima input pengguna, melakukan validasi, menambahkan data, menampilkan data, menghapus data, dan mengubah data.
+
+Dengan pembagian tersebut, program memiliki pemisahan antara bagian tampilan, proses, dan data.
+
+
+## BAB IX POLYMORPHISM
+
+Polymorphism diterapkan menggunakan method overriding.
+
+Pada class Barang terdapat method seperti;
+
+<img width="772" height="195" alt="image" src="https://github.com/user-attachments/assets/790a8179-617f-4f47-a40b-e663ca558cbb" />
+
+Method tersebut kemudian di-override pada class BarangElektronik:
+
+<img width="975" height="273" alt="image" src="https://github.com/user-attachments/assets/fcbe366c-a2da-4b6e-b371-0987315e7a00" />
+
+Lalu pada class BarangNonElektronik seperti berikut;
+
+<img width="975" height="270" alt="image" src="https://github.com/user-attachments/assets/63ab55e8-e956-4211-9b07-50d21a4b211b" />
+
+Masing-masing subclass memiliki tampilan informasi yang berbeda sesuai dengan jenis barang.
+
+Program juga menggunakan sintaks;
+
+<img width="254" height="18" alt="image" src="https://github.com/user-attachments/assets/97e90654-9a1d-4441-b2ec-606af4ed25fc" />
+
+ArrayList tersebut dapat menyimpan objek dari subclass BarangElektronik dan BarangNonElektronik.
+
+Contohnya;
+
+
+<img width="664" height="517" alt="image" src="https://github.com/user-attachments/assets/76ea92a4-78f7-4703-a04e-107c2e24a050" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
